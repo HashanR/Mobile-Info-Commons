@@ -7,8 +7,8 @@ import javax.persistence.*;
 public class SubscriberData {
     @Id
     @GeneratedValue
-    private Integer MSISDN;
-    private String name;
+     private Integer MSISDN;
+     private String name;
 
     public Integer getMSISDN() {
         return MSISDN;
@@ -35,14 +35,14 @@ public class SubscriberData {
     }
 
     public String getConutry() {
-        return conutry;
+        return country;
     }
 
     public void setConutry(String conutry) {
-        this.conutry = conutry;
+        this.country = conutry;
     }
 
-    private String address;
-    private String conutry;
+     private String address;
+     private String country;
 
 }
